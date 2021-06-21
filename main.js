@@ -2,7 +2,7 @@ NoseX = 0;
 NoseY = 0;
 function preload()
 {
-    loadedImage = loadImage("https://i.postimg.cc/8P6rYHRD/drawing-clowns-nose-zoya-kylie2-clipart-453924-pinclipart-clown-nose-png-880-920.jpg");
+    loadedImage = loadImage("https://i.postimg.cc/nLBXRcBk/Clown-nose-large.png");
 }
 
 function setup()
@@ -39,7 +39,7 @@ function draw()
     stroke(255, 50, 75);
     circle(NoseX, NoseY, 20);
 
-    image(loadedImage, NoseX-15, NoseY-15, 50, 50);
+    image(loadedImage, NoseX-45, NoseY-45, 100, 100);
 }
 
 function take_snapshot()
